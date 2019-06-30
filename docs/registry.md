@@ -68,7 +68,7 @@ cd /var/lib/registry
 tar xvzf /tmp/icp_dr.tar.gz
 ```
 
-Next, run the following command to recycle the image manager Pod:
+Next, run the following command to recycle the image manager Pods:
 
 ```
 kubectl delete pod -l app=image-manager -n kube-system
